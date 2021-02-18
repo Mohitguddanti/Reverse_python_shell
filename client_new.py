@@ -4,7 +4,7 @@ import subprocess
 import time
 
 soc = socket.socket()
-host = "192.168.225.207"				#IP of the server(host)
+host = input("Enter the server IP address to give control: ")				#IP of the server(host)
 port = 5050
 soc.connect((host,port))	#connecting to a server
 
